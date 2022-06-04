@@ -1,0 +1,25 @@
+.courses {
+    padding: 50px 50px;
+    flex: 1 0 auto;
+    background-color: rgba(142, 231, 245, 0.1);
+}
+
+.courses__action {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    font-size: 22px;
+}
+
+.courses__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses__date {
+    margin-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+}

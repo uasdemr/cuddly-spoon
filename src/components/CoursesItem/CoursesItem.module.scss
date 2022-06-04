@@ -1,0 +1,15 @@
+.courses__item {
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    transition: all 0.1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(142, 231, 245, 0.1);
+        box-shadow: 0px 9px 9px -12px rgba(34, 60, 80, 0.4);
+    }
+}

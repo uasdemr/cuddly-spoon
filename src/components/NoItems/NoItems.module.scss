@@ -1,0 +1,15 @@
+.noitems {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.noitems__text {
+    font-size: 30px;
+    text-align: center;
+
+    &:last-child {
+        margin-top: 70px;
+    }
+}

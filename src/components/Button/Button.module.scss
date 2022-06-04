@@ -1,0 +1,12 @@
+.button {
+    display: inline-flex;
+
+    @media (max-width: 676px) {
+        margin-top: 20px;
+    }
+}
+
+.button__text {
+    padding: 8px;
+    margin-top: 2px;
+}
